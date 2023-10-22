@@ -632,17 +632,22 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .email-textfield {
-    text-align: center;
     color: var(--white-color);
     background: #2F303A;
-    border: 1px solid #AFB1B8;
+    width: 358px;
+    height: 50px;
+    top: 2787px;
+    left: 815px;
+    border-radius: 4px;
+    border: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .subscribe-btn {
     width: 200px;
-    height: 42px;
+    height: 50px;
     top: 2787px;
     left: 1185px;
     border-radius: 4px;
@@ -871,12 +876,9 @@ input, textarea {
     border: 1px solid #21212133;
 }
 
-
-
 .terms-and-condition-check:checked {
     visibility: hidden;
 }
-
 
 .send-btn {
     font-family: Roboto;
