@@ -511,11 +511,25 @@ li {
     display: flex;
     background-color: #2F303A;
     height: 251px;
-    top: 2097px;
+    top: 2679px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    width: 145px;
+    height: 31px;
+    top: 2739px;
+    left: 215px;
+}
 .logo1 {
     color: #2196F3;
     font-family: Raleway;
@@ -543,19 +557,18 @@ li {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    margin-top: 28px;
-    margin-bottom: 12px;
-    margin-left: 215px; 
+    margin-top: 28px; 
 }
 .contacts-footer {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.03em;
-    margin-left: 215px;
+    margin-left: 110px;
     gap: 12px;
 }
 .e-mail {
@@ -569,6 +582,7 @@ li {
 
 .footer-parent-container {
     display: flex;
+    gap: 50px;
 }
 .footer-child-container:nth-child(2) {
     display: flex;
@@ -579,8 +593,10 @@ li {
 
 }
 .footer-child-container {
-    margin-top: 72px;
-    margin-bottom: 99px;
+    width: 206px;
+    height: 80px;
+    top: 72px;
+    left: 516px;
 }
 .footer-child-container h3 {
     font-family: Roboto;
@@ -614,10 +630,11 @@ li {
     border-radius: 50px;   
 }
 
-.subscribe-to-the-newsletter {
-    margin-top: 40px;
-    margin-left: 93px;
-
+.subscribe-to-the-newsletter  {
+    width: 570px;
+    height: 86px;
+    top: 72px;
+    margin-left: 100px;
 }
 .subscribe-to-the-newsletter h3 {
     font-family: Roboto;
@@ -668,7 +685,7 @@ li {
     height: 24px;
     position: relative;
     top: 2px;
-    right: 50px;
+    right: 40px;
 }
 
 /* Modal-section */
