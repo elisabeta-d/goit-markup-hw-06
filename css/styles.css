@@ -661,6 +661,8 @@ li {
     border: 1px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px 295px 15px 16px;
+    cursor: pointer;
 }
 .subscribe-btn {
     width: 200px;
@@ -679,6 +681,7 @@ li {
     box-shadow: 0px 4px 4px 0px #00000026;
     border: none;
     margin-left: 12px;
+    cursor: pointer;
 }
 .subscribe svg {
     width: 24px;
@@ -834,6 +837,16 @@ textarea:focus {
     transition: background-image var(--transition) color var(--transition) border var(--transition);
 }
 input:focus + svg {
+    fill: rgba(33, 150, 243, 1);
+    transition: background-image var(--transition) color var(--transition) border var(--transition);
+}
+
+input:hover,
+textarea:hover {
+    border: 1px solid rgba(33, 150, 243, 1);
+    transition: background-image var(--transition) color var(--transition) border var(--transition);
+}
+input:hover + svg {
     fill: rgba(33, 150, 243, 1);
     transition: background-image var(--transition) color var(--transition) border var(--transition);
 }
